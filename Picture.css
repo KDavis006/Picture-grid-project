@@ -1,0 +1,238 @@
+*,
+*::after,
+*::before {
+ margin: 0;
+ padding: 0;
+ box-sizing: inherit;
+}
+
+* {
+ padding: 0;
+ margin: 0;
+ text-decoration: none;
+ list-style: none;
+ box-sizing: border-box;
+}
+
+html {
+ box-sizing: border-box;
+ font-size: 62.5%;
+}
+
+body {
+ font-family: "Nunito", sans-serif;
+ color: #333;
+ font-weight: 300;
+ line-height: 1.6;
+}
+
+nav {
+ background:rgb(71, 68, 68);
+ height: 80px;
+ width: 100%;
+}
+
+label.logo {
+ color: white;
+ font-size: 35px;
+ line-height: 80px;
+ padding: 0 100px;
+ font-weight: bold;
+}
+
+/* .check a {
+ color: white;
+ padding: 14px 16px;
+ text-decoration: none;
+ font-size: 17px;
+ display: block;
+} */
+
+.mobile-container {
+ margin: auto;
+ border-radius: 10px;
+}
+
+#myLinks{
+  float: right;
+   position: relative;
+   font-size: 15px;
+   margin-right: 40px;
+   cursor: pointer;
+   line-height: 80px;
+   margin: 0 5px;
+}
+.check {
+ border: 2px solid white;
+ background-color: black;
+ color: white;
+ height: 40px;
+ width: 80px;
+ size: auto;
+}
+
+.container {
+  display: grid;
+  border: 1px solid blue;
+  gap: 1px;
+  grid-template-columns: repeat(5, auto);
+  grid-template-rows: repeat(16, auto);
+  grid-template-areas:
+   "logo logo logo logo p1"
+   "logo logo logo logo p2"
+   "logo logo logo logo p3"
+   "logo logo logo logo p3"
+   "p4 p4 p5 p6 p7"
+   "p4 p4 p5 p6 p7"
+   "p4 p4 p5 p6 p7"
+   "p4 p4 p5 p6 p7"
+   "p8 p9 p9 p10 p11"
+   "p8 p9 p9 p10 p11"
+   "p8 p9 p9 p10 p11"
+   "p8 p13 p14 p14 p15"
+   "p8 p13 p14 p14 p15"
+   "p8 p13 p16 p17 p18"
+   "p12 p13 p16 p17 p18"
+   "p19 p20 p20 . ."
+  ;
+}
+
+.big {
+ border: 10px solid rgb(71, 68, 68);
+}
+
+.gallery__imglogo {
+ grid-area: logo;
+ border: 1px solid blue;
+}
+
+.gallery__img1 {
+grid-area: p1;
+border: 1px solid blue;
+}
+
+.gallery__img2 {
+grid-area: p2;
+border: 1px solid blue;
+}
+
+.gallery__img3 {
+grid-area: p3;
+border: 1px solid blue;
+}
+
+.gallery__img4 {
+grid-area: p4;
+border: 1px solid blue;
+}
+
+.gallery__img5 {
+grid-area: p5;
+border: 1px solid blue;
+}
+
+.gallery__img6 {
+grid-area: p6;
+border: 1px solid blue;
+}
+
+.gallery__img7 {
+grid-area: p7;
+border: 1px solid blue;
+}
+
+.gallery__img8 {
+grid-area: p8;
+border: 1px solid blue;
+}
+
+.gallery__img9 {
+grid-area: p9;
+border: 1px solid blue;
+}
+
+.gallery__img10 {
+grid-area: p10;
+border: 1px solid blue;
+}
+
+.gallery__img11 {
+grid-area: p11;
+border: 1px solid blue;
+}
+
+.gallery__img12 {
+grid-area: p12;
+border: 1px solid blue;
+}
+
+.gallery__img13 {
+grid-area: p13;
+border: 1px solid blue;
+}
+
+.gallery__img14 {
+grid-area: p14;
+border: 1px solid blue;
+}
+
+.gallery__img15 {
+grid-area: p15;
+border: 1px solid blue;
+}
+
+.gallery__img16 {
+grid-area: p16;
+border: 1px solid blue;
+}
+
+.gallery__img17 {
+grid-area: p17;
+border: 1px solid blue;
+}
+
+.gallery__img18 {
+grid-area: p18;
+border: 1px solid blue;
+}
+
+.gallery__img19 {
+grid-area: p19;
+border: 1px solid blue;
+}
+
+.gallery__img20 {
+grid-area: p20;
+border: 1px solid blue;
+}
+
+.text {
+ grid-area: text;
+ text-align: right;
+ margin-top:100px;
+}
+
+.container {
+ display: grid;
+ border: 1px solid blue;
+ gap: 1px;
+ grid-template-columns: repeat(5, auto);
+ grid-template-rows: repeat(16, auto);
+ grid-template-areas:
+  "logo logo logo logo p1"
+  "logo logo logo logo p2"
+  "logo logo logo logo p3"
+  "logo logo logo logo p3"
+  "p4 p4 p5 p6 p7"
+  "p4 p4 p5 p6 p7"
+  "p4 p4 p5 p6 p7"
+  "p4 p4 p5 p6 p7"
+  "p8 p9 p9 p10 p11"
+  "p8 p9 p9 p10 p11"
+  "p8 p9 p9 p10 p11"
+  "p8 p13 p14 p14 p15"
+  "p8 p13 p14 p14 p15"
+  "p8 p13 p16 p17 p18"
+  "p12 p13 p16 p17 p18"
+  "p19 p20 p20 . text";
+}
